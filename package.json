@@ -1,0 +1,24 @@
+{
+  "name": "technical-task-creanova",
+  "version": "1.0.0",
+  "description": "Technical task for Creanova, making a template using HTML + CSS (Tailwind)",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./css/main.css",
+    "watch": "tailwindcss -i ./input.css -o ./css/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lagman-eater/technical-task-creanova.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lagman-eater/technical-task-creanova/issues"
+  },
+  "homepage": "https://github.com/lagman-eater/technical-task-creanova#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
